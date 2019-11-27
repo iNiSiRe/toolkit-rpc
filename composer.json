@@ -1,0 +1,14 @@
+{
+  "name": "inisire/toolkit-rpc",
+  "type": "library",
+  "description": "",
+  "keywords": [],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "inisire\\Toolkit\\Rpc": "src"
+    }
+  }
+}
