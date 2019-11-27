@@ -6,5 +6,5 @@ namespace inisire\Toolkit\Rpc;
 
 abstract class Manifest
 {
-    abstract public function getEndpoint(string $name): Endpoint;
+    abstract public function getRemoteProcedure(string $name): ?RemoteProcedure;
 }

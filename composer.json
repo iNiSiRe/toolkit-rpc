@@ -4,7 +4,9 @@
   "description": "",
   "keywords": [],
   "require": {
-    "php": "^7.1"
+    "php": "^7.1",
+    "symfony/validator": "^4.1",
+    "doctrine/annotations": "~1.7"
   },
   "autoload": {
     "psr-4": {
