@@ -8,7 +8,7 @@
   },
   "autoload": {
     "psr-4": {
-      "inisire\\Toolkit\\Rpc": "src"
+      "inisire\\Toolkit\\Rpc\\": "src"
     }
   }
 }
