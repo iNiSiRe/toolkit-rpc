@@ -4,7 +4,7 @@
 namespace inisire\Toolkit\Rpc;
 
 
-abstract class Endpoint
+abstract class RemoteProcedure
 {
     protected function createArgumentsContainer(): ArgumentsInterface
     {
@@ -21,4 +21,6 @@ abstract class Endpoint
     }
 
     abstract public function call(ArgumentsInterface $arguments): Result;
+
+    abstract public function getName(): string;
 }
